@@ -1,0 +1,92 @@
+\documentclass[a4paper, 12pt, nocenter]{thesis}
+
+\usepackage{natbib}
+\bibliographystyle{apacite}
+
+
+\usepackage{blindtext}
+\usepackage{geometry}
+
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=38.1mm,
+ right=25.4mm,
+top=25.4mm,
+bottom=25.4mm
+ }
+\usepackage{lmodern}
+
+\usepackage{titlesec}
+\titleformat{\chapter}[display]{\fontsize{26pt}{0pt}\bfseries}{}{0pt}{}
+\titleformat{\section}
+  {\normalfont\fontsize{16}{18}\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}
+  {\normalfont\fontsize{16}{18}\normalfont}{\thesection}{1em}{}
+
+
+\setcounter{tocdepth}{5}
+\setcounter{secnumdepth}{5}
+
+\title{Master Thesis\\
+{\Large Calculation of the correlation between solar forcing parameters in the ionosphere using the capabilities of modular programming. Investigation of the variation of the correlation values with time and with latitude.}}
+\date{07.06.2022}
+\author{Fredy Davis}
+\bibliography{references1}
+\begin{document}
+	
+	
+	
+
+  	\pagenumbering{gobble}
+  	\maketitle
+  	\newpage
+  	\tableofcontents
+  	\newpage
+ 	\pagenumbering{arabic}
+	\chapter*{Abstract}
+	\newpage
+	\chapter{Introduction}
+		\section{The Sun}
+		The Sun is the celestial body that sits directly in the middle of the Solar System. It is a nearly perfect ball of hot plasma that has been heated to the point of incandescence by the nuclear fusion events that occur at its center. The energy that it emits is mostly in the form of visible light, ultraviolet light, and infrared radiation. It is by far the most significant contributor to the energy needs of living things on Earth.\citep{stix2012the}
+		\section{The Atmosphere}
+		\section{Space Weather}
+		\section{Goal of the thesis}
+	\newpage
+	\chapter{Theory}
+		\section{Ionosphere}
+		\section{Correlation of solar forcing parameters}
+			\subsection{Total Electron Content}
+			\subsection{Solar Radio Flux}
+			\subsection{Solar Wind Speed}
+		\section{Requirements of an analysis software}
+		\section{Data}
+			\subsection{Datasets}
+			\subsection{Preposessing}
+		
+	\newpage
+	\chapter{Software Development}
+		\section{Software Development Life Cycle (SDLC)}
+			\subsection{Design}
+				\subsubsection{Technologies Used}
+				\subsubsection{Workflow}
+				\subsubsection{User Interface}
+			\subsection{Build}
+				\subsubsection{Files formats}
+			\subsection{Test}
+				\subsubsection{Input File}
+			\subsection{Deployment}
+			\subsection{Maintenance}
+				\subsubsection{Source Code Repository}
+	\newpage
+	\chapter{Results}
+	\newpage
+	\chapter{Conclusion}
+	\newpage
+	\chapter{References}
+		
+	\newpage
+	\chapter{Appendix}
+
+  
+\end{document}
